@@ -14,9 +14,9 @@
         <plugins-plist key="ScreenDim"
                     string="ScreenDimPlugin" />
 
-        <header-file src="ScreenDimPlugin.h" />
+        <header-file src="src/ios/ScreenDimPlugin.h" />
 
-        <source-file src="ScreenDimPlugin.m" />
+        <source-file src="src/ios/ScreenDimPlugin.m" />
     </platform>
 
     <!-- android -->
