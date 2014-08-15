@@ -9,14 +9,45 @@
 
     <asset src="www/screendim.js" target="screendim.js" />
 
+    <!-- Audio files -->
+    <asset src="www/audio/Apex.m4r" target="Apex.m4r" />
+    <asset src="www/audio/Beacon.m4r" target="Beacon.m4r" />
+    <asset src="www/audio/Bulletin.m4r" target="Bulletin.m4r" />
+    <asset src="www/audio/By The Seaside.m4r" target="By The Seaside.m4r" />
+    <asset src="www/audio/Caravan.m4r" target="Caravan.m4r" />
+    <asset src="www/audio/Chimes.m4r" target="Chimes.m4r" />
+    <asset src="www/audio/Circuit.m4r" target="Circuit.m4r" />
+    <asset src="www/audio/Constellation.m4r" target="Constellation.m4r" />
+    <asset src="www/audio/Cosmic.m4r" target="Cosmic.m4r" />
+    <asset src="www/audio/Crystals.m4r" target="Crystals.m4r" />
+    <asset src="www/audio/Hillside.m4r" target="Hillside.m4r" />
+    <asset src="www/audio/Illuminate.m4r" target="Illuminate.m4r" />
+    <asset src="www/audio/Night Owl.m4r" target="Night Owl.m4r" />
+    <asset src="www/audio/Opening.m4r" target="Opening.m4r" />
+    <asset src="www/audio/Playtime.m4r" target="Playtime.m4r" />
+    <asset src="www/audio/Presto.m4r" target="Presto.m4r" />
+    <asset src="www/audio/Radar.m4r" target="Radar.m4r" />
+    <asset src="www/audio/Radiate.m4r" target="Radiate.m4r" />
+    <asset src="www/audio/Ripples.m4r" target="Ripples.m4r" />
+    <asset src="www/audio/Sencha.m4r" target="Sencha.m4r" />
+    <asset src="www/audio/Signal.m4r" target="Signal.m4r" />
+    <asset src="www/audio/Silk.m4r" target="Silk.m4r" />
+    <asset src="www/audio/Slow Rise.m4r" target="Slow Rise.m4r" />
+    <asset src="www/audio/Stargaze.m4r" target="Stargaze.m4r" />
+    <asset src="www/audio/Summit.m4r" target="Summit.m4r" />
+    <asset src="www/audio/Twinkle.m4r" target="Twinkle.m4r" />
+    <asset src="www/audio/Uplift.m4r" target="Uplift.m4r" />
+    <asset src="www/audio/Waves.m4r" target="Waves.m4r" />
+
+
     <!-- ios -->
     <platform name="ios">
         <plugins-plist key="ScreenDim"
                     string="ScreenDimPlugin" />
 
         <header-file src="src/ios/ScreenDimPlugin.h" />
-
         <source-file src="src/ios/ScreenDimPlugin.m" />
+
     </platform>
 
     <!-- android -->
