@@ -14,12 +14,14 @@
 - (void) enable:(CDVInvokedUrlCommand*)command
 {	
     [[UIApplication sharedApplication] setIdleTimerDisabled:NO];
+    [UIApplication sharedApplication].idleTimerDisabled = NO;
 }
 
 
 - (void) disable:(CDVInvokedUrlCommand*)command
 {   
     [[UIApplication sharedApplication] setIdleTimerDisabled:YES];
+    [UIApplication sharedApplication].idleTimerDisabled = YES;
 }
 
 @end
