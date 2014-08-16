@@ -7,7 +7,7 @@
 
     <name>Screen Dim</name>
 
-    <asset src="www/ScreenDim.js" target="plugins/ScreenDim.js" />
+    <js-module src="www/ScreenDim.js" target="plugins/ScreenDim.js" />
 
     <!-- Audio files -->
     <!--<asset src="www/audio/silent.mp3" target="silent.mp3" />-->
