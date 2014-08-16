@@ -10,7 +10,7 @@
     <asset src="www/screendim.js" target="screendim.js" />
 
     <!-- Audio files -->
-    <asset src="www/audio/silent.mp3" target="silent.mp3" />
+    <!--<asset src="www/audio/silent.mp3" target="silent.mp3" />-->
 
     <asset src="www/audio/Apex.m4r" target="Apex.m4r" />
     <asset src="www/audio/Beacon.m4r" target="Beacon.m4r" />
