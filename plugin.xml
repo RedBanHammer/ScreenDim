@@ -7,7 +7,7 @@
 
     <name>Screen Dim</name>
 
-    <asset src="www/screendim.js" target="screendim.js" />
+    <asset src="www/ScreenDim.js" target="plugins/ScreenDim.js" />
 
     <!-- Audio files -->
     <!--<asset src="www/audio/silent.mp3" target="silent.mp3" />-->
@@ -44,8 +44,16 @@
 
     <!-- ios -->
     <platform name="ios">
-        <plugins-plist key="ScreenDim"
-                    string="ScreenDimPlugin" />
+        <config-file target="config.xml" parent="/*/plugins">
+          <plugin name="ScreenDim" value="ScreenDim" onload="true" />
+        </config-file>
+
+        <config-file target="config.xml" parent="/widget">
+          <feature name="ScreenDim">
+            <param name="ios-package" value="ScreenDim"/>
+            <param name="onload" value="true" />
+          </feature>
+        </config-file>
 
         <header-file src="src/ios/ScreenDimPlugin.h" />
         <source-file src="src/ios/ScreenDimPlugin.m" />
