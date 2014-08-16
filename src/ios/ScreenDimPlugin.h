@@ -6,16 +6,11 @@
 //  Copyright (c) 2012 __MyCompanyName__. All rights reserved.
 //
 
-#import <Foundation/Foundation.h>
-#ifdef CORDOVA_FRAMEWORK
-#import <Cordova/CDVPlugin.h>
-#else
-#import "CDVPlugin.h"
-#endif
+#import <Cordova/CDV.h>
 
 @interface ScreenDimPlugin : CDVPlugin
 
-- (void) enable:(NSMutableArray*)arguments withDict:(NSMutableDictionary*)options;
-- (void) disable:(NSMutableArray*)arguments withDict:(NSMutableDictionary*)options;
+- (void) enable:(CDVInvokedUrlCommand*)command;
+- (void) disable:(CDVInvokedUrlCommand*)command;
 
 @end
