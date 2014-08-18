@@ -8,7 +8,7 @@
 
 #import <Cordova/CDV.h>
 
-@interface ScreenDimPlugin : CDVPlugin
+@interface ScreenDim : CDVPlugin
 
 - (void) enable:(CDVInvokedUrlCommand*)command;
 - (void) disable:(CDVInvokedUrlCommand*)command;
